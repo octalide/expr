@@ -6,11 +6,11 @@ import (
 	"math"
 	"reflect"
 
-	"github.com/antonmedv/expr/ast"
-	"github.com/antonmedv/expr/conf"
-	"github.com/antonmedv/expr/file"
-	"github.com/antonmedv/expr/parser"
-	. "github.com/antonmedv/expr/vm"
+	"github.com/octalide/expr/ast"
+	"github.com/octalide/expr/conf"
+	"github.com/octalide/expr/file"
+	"github.com/octalide/expr/parser"
+	. "github.com/octalide/expr/vm"
 )
 
 func Compile(tree *parser.Tree, config *conf.Config) (program *Program, err error) {

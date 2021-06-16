@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/antonmedv/expr/ast"
-	"github.com/antonmedv/expr/conf"
-	"github.com/antonmedv/expr/file"
-	"github.com/antonmedv/expr/parser"
+	"github.com/octalide/expr/ast"
+	"github.com/octalide/expr/conf"
+	"github.com/octalide/expr/file"
+	"github.com/octalide/expr/parser"
 )
 
 func Check(tree *parser.Tree, config *conf.Config) (reflect.Type, error) {

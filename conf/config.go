@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/antonmedv/expr/ast"
-	"github.com/antonmedv/expr/vm"
+	"github.com/octalide/expr/ast"
+	"github.com/octalide/expr/vm"
 )
 
 type Config struct {

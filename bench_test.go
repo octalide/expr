@@ -3,8 +3,8 @@ package expr_test
 import (
 	"testing"
 
-	"github.com/antonmedv/expr"
-	"github.com/antonmedv/expr/vm"
+	"github.com/octalide/expr"
+	"github.com/octalide/expr/vm"
 )
 
 func Benchmark_expr(b *testing.B) {

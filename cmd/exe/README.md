@@ -3,7 +3,7 @@
 ## Install
 
 ```bash
-go get github.com/antonmedv/expr/cmd/exe
+go get github.com/octalide/expr/cmd/exe
 ```
 
 ## Usage

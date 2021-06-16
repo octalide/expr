@@ -1,6 +1,6 @@
 # Visitor and Patch
 
-[ast](https://pkg.go.dev/github.com/antonmedv/expr/ast?tab=doc) package provides `ast.Visitor` interface and `ast.Walk` function. 
+[ast](https://pkg.go.dev/github.com/octalide/expr/ast?tab=doc) package provides `ast.Visitor` interface and `ast.Walk` function. 
 You can use it for traveling ast tree of compiled program.
 
 For example if you want to collect all variable names:
@@ -11,8 +11,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/antonmedv/expr/ast"
-	"github.com/antonmedv/expr/parser"
+	"github.com/octalide/expr/ast"
+	"github.com/octalide/expr/parser"
 )
 
 type visitor struct {
@@ -56,8 +56,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/antonmedv/expr"
-	"github.com/antonmedv/expr/ast"
+	"github.com/octalide/expr"
+	"github.com/octalide/expr/ast"
 )
 
 func main() {
@@ -112,8 +112,8 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/antonmedv/expr"
-	"github.com/antonmedv/expr/ast"
+	"github.com/octalide/expr"
+	"github.com/octalide/expr/ast"
 )
 
 func main() {

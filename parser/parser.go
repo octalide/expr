@@ -7,9 +7,9 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	. "github.com/antonmedv/expr/ast"
-	"github.com/antonmedv/expr/file"
-	. "github.com/antonmedv/expr/parser/lexer"
+	. "github.com/octalide/expr/ast"
+	"github.com/octalide/expr/file"
+	. "github.com/octalide/expr/parser/lexer"
 )
 
 type associativity int

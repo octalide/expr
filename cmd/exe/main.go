@@ -4,16 +4,17 @@ import (
 	"bufio"
 	"flag"
 	"fmt"
-	"github.com/antonmedv/expr/ast"
 	"io/ioutil"
 	"os"
 
-	"github.com/antonmedv/expr"
-	"github.com/antonmedv/expr/checker"
-	"github.com/antonmedv/expr/compiler"
-	"github.com/antonmedv/expr/optimizer"
-	"github.com/antonmedv/expr/parser"
-	"github.com/antonmedv/expr/vm"
+	"github.com/octalide/expr/ast"
+
+	"github.com/octalide/expr"
+	"github.com/octalide/expr/checker"
+	"github.com/octalide/expr/compiler"
+	"github.com/octalide/expr/optimizer"
+	"github.com/octalide/expr/parser"
+	"github.com/octalide/expr/vm"
 	"github.com/sanity-io/litter"
 )
 

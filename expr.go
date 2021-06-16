@@ -2,16 +2,17 @@ package expr
 
 import (
 	"fmt"
-	"github.com/antonmedv/expr/ast"
-	"github.com/antonmedv/expr/file"
 	"reflect"
 
-	"github.com/antonmedv/expr/checker"
-	"github.com/antonmedv/expr/compiler"
-	"github.com/antonmedv/expr/conf"
-	"github.com/antonmedv/expr/optimizer"
-	"github.com/antonmedv/expr/parser"
-	"github.com/antonmedv/expr/vm"
+	"github.com/octalide/expr/ast"
+	"github.com/octalide/expr/file"
+
+	"github.com/octalide/expr/checker"
+	"github.com/octalide/expr/compiler"
+	"github.com/octalide/expr/conf"
+	"github.com/octalide/expr/optimizer"
+	"github.com/octalide/expr/parser"
+	"github.com/octalide/expr/vm"
 )
 
 // Option for configuring config.

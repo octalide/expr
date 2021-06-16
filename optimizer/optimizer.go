@@ -1,8 +1,8 @@
 package optimizer
 
 import (
-	. "github.com/antonmedv/expr/ast"
-	"github.com/antonmedv/expr/conf"
+	. "github.com/octalide/expr/ast"
+	"github.com/octalide/expr/conf"
 )
 
 func Optimize(node *Node, config *conf.Config) error {

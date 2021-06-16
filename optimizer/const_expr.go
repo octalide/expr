@@ -2,10 +2,11 @@ package optimizer
 
 import (
 	"fmt"
-	. "github.com/antonmedv/expr/ast"
-	"github.com/antonmedv/expr/file"
 	"reflect"
 	"strings"
+
+	. "github.com/octalide/expr/ast"
+	"github.com/octalide/expr/file"
 )
 
 type constExpr struct {

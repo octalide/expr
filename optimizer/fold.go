@@ -4,8 +4,8 @@ import (
 	"math"
 	"reflect"
 
-	. "github.com/antonmedv/expr/ast"
-	"github.com/antonmedv/expr/file"
+	. "github.com/octalide/expr/ast"
+	"github.com/octalide/expr/file"
 )
 
 type fold struct {

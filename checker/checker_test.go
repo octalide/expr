@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/antonmedv/expr"
-	"github.com/antonmedv/expr/checker"
-	"github.com/antonmedv/expr/conf"
-	"github.com/antonmedv/expr/parser"
+	"github.com/octalide/expr"
+	"github.com/octalide/expr/checker"
+	"github.com/octalide/expr/conf"
+	"github.com/octalide/expr/parser"
 	"github.com/stretchr/testify/assert"
 )
 
